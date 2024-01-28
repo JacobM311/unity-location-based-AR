@@ -16,6 +16,9 @@ public class GPSController : MonoBehaviour
     private float secondLongitude;
     private float secondLatitude;
 
+    public GameObject objectToInstantiate;
+    public Camera cam;
+
     IEnumerator Start()
     {
         // Check if user has location service enabled
@@ -85,5 +88,12 @@ public class GPSController : MonoBehaviour
     private double ToRadians(double value)
     {
         return value * (Mathf.PI / 180);
+    }
+
+    public void InstantiateAtPosition()
+    {
+        Vector3 instantiatePosition = cam.transform.position + cam.transform.forward * 1.5f;
+
+        Instantiate(objectToInstantiate, instantiatePosition, Quaternion.identity);
     }
 }
