@@ -825,7 +825,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_FocusMode: -1
   m_LightEstimationMode: -1
-  m_AutoFocus: 1
+  m_AutoFocus: 0
   m_LightEstimation: 0
   m_FacingDirection: 1
   m_RenderMode: 0
@@ -1635,7 +1635,7 @@ MonoBehaviour:
   currentAltitude: {fileID: 782628376}
   distance: {fileID: 1577749884}
   objectToInstantiate: {fileID: 5935128393961195272, guid: e5bf78c24bc16ae4fb4fc1846f8d70b5, type: 3}
-  cam: {fileID: 0}
+  cam: {fileID: 203818819}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2553,6 +2553,7 @@ GameObject:
   - component: {fileID: 1850068266}
   - component: {fileID: 1850068265}
   - component: {fileID: 1850068267}
+  - component: {fileID: 1850068268}
   m_Layer: 0
   m_Name: AR Origin
   m_TagString: Untagged
@@ -2608,6 +2609,18 @@ MonoBehaviour:
   m_AttemptUpdate: 1
   m_MatchFrameRate: 1
   m_TrackingMode: 2
+--- !u!114 &1850068268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850068264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa850fbd5b8aded44846f96e35f1a9f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1870533098
 GameObject:
   m_ObjectHideFlags: 0

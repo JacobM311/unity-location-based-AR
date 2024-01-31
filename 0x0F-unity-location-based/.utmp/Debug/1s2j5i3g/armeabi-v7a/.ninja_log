@@ -1,0 +1,11 @@
+# ninja log v5
+23	111	7283868980531803	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	e421e6bb081fabe2
+112	240	7283868981518436	C:/Users/Jacob/atlas-0x0F-unity-location-based/0x0F-unity-location-based/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/1s2j5i3g/obj/armeabi-v7a/libswappywrapper.so	afd36a6a1ac03518
+13	478	7283868984169756	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	d50e53ee963e04cf
+7	483	7283868984239768	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	bf70ab43ce3ffad1
+10	509	7283868984499835	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	15ed2ef47be7de88
+20	514	7283868984579852	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	9580d327132991c
+0	543	7283868984849916	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	4f76be839d42889a
+16	588	7283868985310005	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	41ef0e7a6cb39497
+4	614	7283868985570064	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	73f697c144b363eb
+614	711	7283868986280233	C:/Users/Jacob/atlas-0x0F-unity-location-based/0x0F-unity-location-based/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/1s2j5i3g/obj/armeabi-v7a/libgame.so	668267cc6383c92d
